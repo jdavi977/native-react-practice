@@ -1,4 +1,6 @@
 import { Text, View } from "react-native";
+import SwipeDeck from "../components/SwipeDeck";
+
 
 export default function Index() {
   return (
@@ -9,7 +11,10 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <View>
+        <SwipeDeck />
+      </View>
+      <View></View>
     </View>
   );
 }
