@@ -12,9 +12,12 @@ export default function Index() {
       }}
     >
       <View>
+        <Text>Test</Text>
         <SwipeDeck />
       </View>
-      <View></View>
+      <View>
+        <Text>Hello</Text>
+      </View>
     </View>
   );
 }
