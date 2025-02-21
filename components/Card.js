@@ -28,11 +28,13 @@ const styles = StyleSheet.create({
             top: 25,
         },
         userContainer: {
-
+            position: "absolute",
+            bottom: 24,
+            left: 24
         },
         image: {
             width: width * 0.9,
-            height: height * 0.78,
+            height: height * 0.7,
             borderRadius: 20
         },
         gradient: {
@@ -40,13 +42,19 @@ const styles = StyleSheet.create({
             bottom: 0,
             left: 0,
             right: 0,
-            height: 300
+            height: 300,
+            borderBottomRightRadius: 20,
+            borderBottomLeftRadius: 20,
         },
         nameText: {
-
+            fontSize: 40,
+            color: "white",
+            fontWeight: 300
         },
         breedText: {
-
+            fontSize: 20,
+            color: "white",
+            fontWeight: 300
         },
 });
 
